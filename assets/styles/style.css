@@ -120,6 +120,7 @@ main h1, main h2 {
 }
 
 /*  Entrevista  */
+
 .pergunta {
     background: #e8f0ff;
     border-left: 5px solid #003366;
@@ -140,11 +141,17 @@ main h1, main h2 {
 }
 
 /* Formulário  */
+.contact {
+    text-align: center;
+}
+
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 input, textarea, button {
